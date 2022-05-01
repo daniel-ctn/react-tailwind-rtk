@@ -7,7 +7,7 @@ import { store } from 'app/store'
 import './index.css'
 import App from './App'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById('app')!).render(
   <React.StrictMode>
     <Provider store={store}>
       <Router>
